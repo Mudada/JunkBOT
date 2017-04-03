@@ -1,0 +1,7 @@
+[package]
+name = "trot_bot"
+version = "0.1.0"
+authors = ["mudada"]
+
+[dependencies]
+serenity = "0.1"
