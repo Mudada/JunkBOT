@@ -1,0 +1,56 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "/usr/local/opt/openssl/include" "-o" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/src/openssl_shim.o" "-c" "src/openssl_shim.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "/usr/local/opt/openssl/include" "-o" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/ssl_ctx_options_shim.o" "-c" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/ssl_ctx_options_shim.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/libopenssl_shim.a" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/src/openssl_shim.o" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out/ssl_ctx_options_shim.o"
+ExitStatus(ExitStatus(0))
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=openssl_shim
+cargo:rustc-link-search=native=/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-sys-extras-45159e42f4e1f90d/out

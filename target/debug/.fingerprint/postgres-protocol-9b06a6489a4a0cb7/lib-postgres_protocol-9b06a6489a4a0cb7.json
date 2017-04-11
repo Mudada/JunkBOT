@@ -1,0 +1,1 @@
+{"rustc":14806581616236711035,"target":1491845707772043622,"profile":11625325535095225723,"local":{"variant":"Precalculated","fields":["0.2.1"]},"features":"None","deps":[["byteorder v1.0.0",430548626714071495],["fallible-iterator v0.1.3",1073146685500476743],["md5 v0.3.3",7161806541999161311],["memchr v1.0.1",17671063450645878110]],"rustflags":[]}

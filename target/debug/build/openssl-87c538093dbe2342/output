@@ -1,0 +1,35 @@
+TARGET = Some("x86_64-apple-darwin")
+OPT_LEVEL = Some("0")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CC_x86_64-apple-darwin = None
+CC_x86_64_apple_darwin = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+CFLAGS_x86_64-apple-darwin = None
+CFLAGS_x86_64_apple_darwin = None
+HOST_CFLAGS = None
+CFLAGS = None
+PROFILE = Some("debug")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-m64" "-I" "/usr/local/opt/openssl/include" "-o" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-87c538093dbe2342/out/src/c_helpers.o" "-c" "src/c_helpers.c"
+ExitStatus(ExitStatus(0))
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+HOST = Some("x86_64-apple-darwin")
+AR_x86_64-apple-darwin = None
+AR_x86_64_apple_darwin = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-apple-darwin")
+TARGET = Some("x86_64-apple-darwin")
+running: "ar" "crs" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-87c538093dbe2342/out/libc_helpers.a" "/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-87c538093dbe2342/out/src/c_helpers.o"
+ExitStatus(ExitStatus(0))
+TARGET = Some("x86_64-apple-darwin")
+cargo:rustc-link-lib=static=c_helpers
+cargo:rustc-link-search=native=/Users/mudada/Desktop/Rust/trot_bot/target/debug/build/openssl-87c538093dbe2342/out

@@ -1,0 +1,3 @@
+struct Deus {
+    name: String
+}
